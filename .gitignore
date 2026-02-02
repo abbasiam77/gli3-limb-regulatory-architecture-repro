@@ -1,0 +1,14 @@
+# Big data files (keep local, don’t commit)
+*.bw
+*.hic
+*.bam
+*.bigWig
+*.bedGraph
+
+# PowerPoint and high-res rasters can be large; keep optional
+*.pptx
+*.png
+
+# OS noise
+.DS_Store
+Thumbs.db

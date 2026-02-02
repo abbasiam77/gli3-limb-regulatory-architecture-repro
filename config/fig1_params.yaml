@@ -1,0 +1,22 @@
+figure: Fig1
+genome_build: mm9
+locus:
+  chrom: "13"
+  start: 12861604
+  end: 16470132
+juicebox:
+  display: observed
+  normalization: balanced_KR
+  resolution: 5kb
+  export: svg
+igv_tracks:
+  y_max:
+    SMC1A: 1
+    RAD21: 16
+    CTCF: 2
+    RNAseq: 8
+enhancers:
+  upstream_color: gold/orange
+  intronic_color: green
+notes:
+  - enhancer file in IGV session uses simplified name: Gli3_enhancers_gold-mm9.bw
