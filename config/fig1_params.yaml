@@ -1,22 +1,20 @@
 figure: Fig1
 genome_build: mm9
-locus:
+locus_mm9:
   chrom: "13"
   start: 12861604
   end: 16470132
 juicebox:
-  display: observed
-  normalization: balanced_KR
-  resolution: 5kb
-  export: svg
-igv_tracks:
-  y_max:
-    SMC1A: 1
-    RAD21: 16
-    CTCF: 2
-    RNAseq: 8
+  sample: "WT E11.5 limb bud"
+  dataset: "GSE116791_WT_E115_LB_mm9_merged.hic"
+  display: "observed"
+  normalization: "balanced/KR"
+  resolution: "5kb"
+igv:
+  session_file: "docs/igv_session.xml"
+  track_label_style: "Hi-C WT E11.5 LB (mm9); SMC1A Limb E11.5 (mm9); RAD21 HL WT E11.5 (mm9); CTCF HL WT E11.5 (mm9); RNA-seq HL WT E11.5 (mm9)"
 enhancers:
-  upstream_color: gold/orange
-  intronic_color: green
-notes:
-  - enhancer file in IGV session uses simplified name: Gli3_enhancers_gold-mm9.bw
+  upstream: "gold/orange"
+  intronic: "green"
+note:
+  - "IGV session expects simplified upstream track name: Gli3_enhancers_gold-mm9.bw"

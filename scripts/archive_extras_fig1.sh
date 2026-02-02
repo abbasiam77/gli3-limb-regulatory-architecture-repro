@@ -4,7 +4,6 @@ set -euo pipefail
 ARCH="archive_$(date +%Y%m%d)_fig1_cleanup"
 mkdir -p "$ARCH"
 
-# Edit this list if you add more intermediates later
 cat > archive_list.txt << 'EOL'
 Gli3_enhancers_mm9_BED9_itemRgbOn_VIS3_score1000_NAMES_noCNE6.bed
 Gli3_enhancers_upstream_gold.mm9.bw

@@ -1,0 +1,7 @@
+data_type	source_id	accession	organism	tissue	stage	genome_build	file_used_local	notes
+Hi-C	GEO	GSE116791	Mus musculus	limb bud	E11.5	mm9	GSE116791_WT_E115_LB_mm9_merged.hic	WT; visualized in Juicebox; observed + balanced/KR; 5 kb
+ChIP-seq (CTCF)	GEO	GSM2251441	Mus musculus	hindlimb	E11.5	mm9	CTCF_HL_E115_mm9_merge.bw	Boundary/insulation track
+ChIP-seq (RAD21)	GEO	GSM2251510	Mus musculus	hindlimb	E11.5	mm9	RAD21_HL_E115_Wt_mm9.bw	Cohesin subunit
+ChIP-seq (SMC1A)	GEO	GSM1036128	Mus musculus	limb	E11.5	mm9	SMC1A_Limb_E115_mm9.bw	Cohesin subunit
+RNA-seq	GEO	GSM225152?	Mus musculus	hindlimb	E11.5	mm9	RNA_HL_E115_mm9_rep1.bw	Confirm exact GSM for the RNA bigWig
+Enhancers (validated)	Table/curation	-	-	-	-	mm9 (lifted from mm10)	Gli3_enhancers_mm9_BED9_itemRgbOn_upGold_intrGreen_NAMES_noCNE6.bed	Upstream=gold; intronic=green

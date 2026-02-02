@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Run this inside the folder that contains the BW files and igv_session.xml
+# Run this inside the folder containing the bigWig files used by igv_session.xml
 
 MERGED="Gli3_enhancers_upstream_gold_MERGED.mm9.bw"
 SIMPLE="Gli3_enhancers_gold-mm9.bw"

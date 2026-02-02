@@ -1,13 +1,16 @@
-# Big data files (keep local, don’t commit)
+# Large raw data (do not commit)
 *.bw
+*.bigWig
 *.hic
 *.bam
-*.bigWig
 *.bedGraph
 
-# PowerPoint and high-res rasters can be large; keep optional
+# Large figure binaries (keep local; can upload via Releases/LFS if needed)
 *.pptx
 *.png
+*.tif
+*.pdf
+*.svg
 
 # OS noise
 .DS_Store

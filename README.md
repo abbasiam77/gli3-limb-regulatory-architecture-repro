@@ -1,18 +1,21 @@
 # Fig 1 reproducibility package (GLI3 limb manuscript)
 
-This folder contains the small, figure-specific configuration, scripts, and metadata needed to reproduce Fig 1 visualization choices.
+This repository snapshot contains the minimal figure-specific metadata and helper scripts needed to reproduce **Figure 1** visualization settings.
 
 ## Locked settings
-- Build: mm9
-- Locus: chr13:12861604-16470132
-- Juicebox: Observed, Balanced/KR, 5 kb
-- IGV: see `docs/igv_session.xml`
-- Enhancer track naming: IGV session expects `Gli3_enhancers_gold-mm9.bw` (created from the merged upstream BW)
+- Genome build: **mm9**
+- Locus: **chr13:12861604-16470132 (mm9)**
+- Juicebox: **Observed**, **Balanced/KR**, **5 kb**
+- IGV session: `docs/igv_session.xml`
+- Enhancer naming: IGV session expects upstream enhancer bigWig as `Gli3_enhancers_gold-mm9.bw`
 
-## What is NOT stored here
-Large raw tracks (e.g., `*.bw`, `*.hic`) are not committed to git by default. Use the manifest/checksums and public accession sources to retrieve them.
+## What is included
+- IGV session XML + enhancer BED (`docs/`)
+- Figure settings (`config/fig1_params.yaml`)
+- Source table for methods/caption (`docs/sources.tsv`)
+- Manifest + SHA256 checksums (`manifests/`)
+- Utility scripts (`scripts/`)
 
-## Scripts
-- `scripts/ensure_simple_enhancer_bw_name.sh` – ensures `Gli3_enhancers_gold-mm9.bw` exists
-- `scripts/make_manifest.sh` – generates a TSV + SHA256 checksums in the current folder
-- `scripts/archive_extras_fig1.sh` – archives intermediate/duplicate files
+## What is not included
+Large raw datasets (e.g., `*.bw`, `*.hic`) and final assembled figure binaries are not committed by default.
+They can be retrieved from the listed GEO accessions and verified against the manifest checksums.
