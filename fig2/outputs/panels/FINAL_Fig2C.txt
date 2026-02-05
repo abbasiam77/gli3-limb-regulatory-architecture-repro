@@ -1,0 +1,6 @@
+Final Fig2C (manuscript):
+Fig2C_grouped_threeMarks_sharedAxis_v3_CLEAN
+
+Expected files (if stored here):
+- Fig2C_grouped_threeMarks_sharedAxis_v3_CLEAN.png
+- Fig2C_grouped_threeMarks_sharedAxis_v3_CLEAN.svg
