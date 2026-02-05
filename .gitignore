@@ -15,3 +15,25 @@
 # OS noise
 .DS_Store
 Thumbs.db
+
+# Local virtual environments (do not commit)
+.venv/
+venv/
+myenv/
+bioenv/
+
+# local virtual envs (never commit)
+.venv/
+venv/
+myenv/
+bioenv/
+
+# large genomics binaries (never commit)
+*.bw
+*.bigWig
+*.BigWig
+*.hic
+*.cool
+*.mcool
+*.bam
+*.bai
