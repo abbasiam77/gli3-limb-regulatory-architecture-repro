@@ -18,3 +18,8 @@ python fig2/scripts/plot_Fig2C_grouped_three_marks_shared_axis_v3_clean.py \
   --out-prefix fig2/outputs/panels/Fig2C_grouped_threeMarks_sharedAxis_v3_CLEAN \
   --drop-all-zero \
   --gap-between-groups 0.30
+
+## Final plot used in manuscript
+- Fig2C plot script: `scripts/plot_Fig2C_grouped_three_marks_shared_axis_v3_clean.py`
+- Input TSV: `inputs/Fig2C_enhancer_meanSignal_WT_HL_E115_mm9.fixed.tsv`
+- Outputs: `outputs/panels/` (SVG + 600dpi PNG)
