@@ -43,3 +43,8 @@ bioenv/
 !fig2/outputs/panels/
 !fig2/outputs/panels/*.png
 !fig2/outputs/panels/*.svg
+
+# Fig2: keep repo clean — ignore older intermediate panel variants
+fig2/outputs/panels/*COLOR*
+fig2/outputs/panels/*byMarkColor*
+fig2/outputs/panels/*v2_shortGrouped_annotMe3*
