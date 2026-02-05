@@ -37,3 +37,9 @@ bioenv/
 *.mcool
 *.bam
 *.bai
+
+# Allow tracked panel exports for Fig2 (override global *.png/*.svg ignores)
+!fig2/outputs/
+!fig2/outputs/panels/
+!fig2/outputs/panels/*.png
+!fig2/outputs/panels/*.svg
