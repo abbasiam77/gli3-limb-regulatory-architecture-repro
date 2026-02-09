@@ -1,11 +1,17 @@
-# Fig 3 (mm10) — GLI3 limb manuscript
+# Fig 3 reproducibility package (mm10) — GLI3 limb manuscript
 
-Goal: mm10-only figure showing HOXA13/HOXD13 binding and Gli3 enhancer landscape in mm10 coordinates.
+## Locked settings
+- Genome build: **mm10**
+- Fig 3 is **mm10-only**
+- Enhancer names are assigned by coordinate match to: `coords/Gli3_named_enhancers.mm10.bed`
 
-Planned contents:
-- scripts for plotting tracks and quantifying HOX signal over enhancers
-- derived TSV(s) for plotting
-- exported panels (SVG + 600dpi PNG)
-- caption text
+## Included
+- `coords/`: enhancer BEDs + naming BED
+- `derived/`: final Fig3C HOXA13/HOXD13 per-enhancer table + Supplementary Table S (xlsx/tsv/csv)
+- `scripts/`: scripts used for Fig3C generation (table + scatter)
+- `outputs/panels/`: final Fig3C panel (PNG/SVG)
+- `docs/`: caption + sources metadata
+- `manifests/sha256sums.txt`: checksums for committed files
 
-Raw bigWig files (*.bw) are excluded via .gitignore.
+## Not included
+- Large raw tracks (e.g., `*.bw`) are not committed by default.

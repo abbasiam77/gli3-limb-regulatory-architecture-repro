@@ -1,0 +1,10 @@
+item	type	build	source_or_accession	filename	notes
+HOXA13 ChIP-seq bigWig	raw_track	mm10	TODO_ADD_SOURCE	HOXA13_mm10_WT_E12p5_DFL_mean.bw	not committed (large)
+HOXD13 ChIP-seq bigWig	raw_track	mm10	TODO_ADD_SOURCE	HOXD13_mm10_WT_E12p5_DFL_mean.bw	not committed (large)
+Gli3 named enhancers	coords	mm10	internal	coords/Gli3_named_enhancers.mm10.bed	committed; names used in Fig3C/Table S
+Upstream enhancer blocks	coords	mm10	internal	coords/Gli3_enhancerBlocks_upstream.mm10.bed	committed
+Intronic enhancer blocks	coords	mm10	internal	coords/Gli3_enhancerBlocks_intronic.mm10.bed	committed
+Fig3C per-enhancer table	derived	mm10	internal	derived/Fig3C_data_mm10_HOXA13_HOXD13.tsv	committed; used for plotting
+Supplementary Table S (Fig3C)	derived	mm10	internal	derived/Supplementary_Table_S_Fig3C_mm10.xlsx	committed
+Fig3C final panel	panel	mm10	internal	outputs/panels/Fig3C_mm10_FINAL.png	committed
+Fig3C caption	doc	mm10	internal	docs/Caption_Fig3C.docx	committed
