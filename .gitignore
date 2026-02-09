@@ -48,3 +48,12 @@ bioenv/
 fig2/outputs/panels/*COLOR*
 fig2/outputs/panels/*byMarkColor*
 fig2/outputs/panels/*v2_shortGrouped_annotMe3*
+
+# allow final Fig3 panels
+!fig3_mm10/outputs/panels/*.png
+!fig3_mm10/outputs/panels/*.svg
+
+# allow fig3 igv session assets
+!fig3_mm10/igv/*.xml
+!fig3_mm10/igv/*.svg
+!fig3_mm10/igv/*.txt

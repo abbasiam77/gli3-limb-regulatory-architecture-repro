@@ -1,0 +1,17 @@
+IGV-Genomes-Download hosted genomes
+Mouse (mm10 / GRCm38)
+Full view: chr13:12,861,604-16,470,132
+
+................
+
+Zoomed in view: chr13:15,436,644-15,752,121
+Data ranges:
+
+Minimum = 0
+
+Maximum = use what you already have visible:
+
+HOXA13 max 50
+
+HoxD13 max 50
+
