@@ -49,11 +49,12 @@ fig2/outputs/panels/*COLOR*
 fig2/outputs/panels/*byMarkColor*
 fig2/outputs/panels/*v2_shortGrouped_annotMe3*
 
-# allow final Fig3 panels
-!fig3_mm10/outputs/panels/*.png
-!fig3_mm10/outputs/panels/*.svg
 
-# allow fig3 igv session assets
-!fig3_mm10/igv/*.xml
-!fig3_mm10/igv/*.svg
-!fig3_mm10/igv/*.txt
+# --- allow Virtual4C supplementary figures (keep general *.png/*.pdf ignore) ---
+!supplementary/
+!supplementary/virtual4c_gli3_hindlimb_hic_mm9/
+!supplementary/virtual4c_gli3_hindlimb_hic_mm9/outputs/
+!supplementary/virtual4c_gli3_hindlimb_hic_mm9/outputs/figures/
+!supplementary/virtual4c_gli3_hindlimb_hic_mm9/outputs/figures/*.png
+!supplementary/virtual4c_gli3_hindlimb_hic_mm9/outputs/figures/*.pdf
+
