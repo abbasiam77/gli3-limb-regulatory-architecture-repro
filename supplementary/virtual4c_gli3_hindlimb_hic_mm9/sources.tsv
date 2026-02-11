@@ -1,0 +1,2 @@
+dataset	label	tissue_stage	genome_build	file_type	normalization	resolution	bin_size	viewpoint_mm9	window_mm9	notes
+Hindlimb_mm9.hic	E11.5_hindlimb_HiC	mouse hindlimb bud E11.5	NCBI37/mm9	.hic (Juicer)	KR (Balanced)	O/E (observed/expected)	10kb	chr13:15,550,000–15,560,000	chr13:14,732,034–16,103,316	Used for Virtual 4C at 10 kb; KR norms validated via juicer_tools validate
