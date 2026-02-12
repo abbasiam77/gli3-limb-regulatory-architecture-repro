@@ -1,0 +1,10 @@
+Key commands used for GLI3 ChIP-seq supplementary figure:
+
+- deepTools enhancer-wise quantification:
+  multiBigwigSummary BED-file -b GLI3_log2ChIPoverInput.mm10.bin25.chr13.skipNAs.bw \
+    --BED Gli3_named_enhancers.mm10.bed4 -o Gli3_log2_over_enhancers.npz \
+    --outRawCounts Gli3_log2_over_enhancers.tab --labels GLI3_log2
+
+- Python table + plotting:
+  python3 build_gli3_enhancer_table_from_deeptools.py
+  python3 plot_supp_panelC_gli3.py

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="mm10" locus="chr13:12683012-16244221" version="8">
+    <Resources>
+        <Resource path="\\?\E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\GLI3_log2ChIPoverInput.mm10.bin25.chr13.skipNAs.bw" type="bw"/>
+        <Resource path="E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\GLI3_E115_ChIP_merged.mm10.CPM.bin25.chr13.bw" type="bw"/>
+        <Resource path="E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\Gli3_enhancers_intronic_green.mm10.bw" type="bw"/>
+        <Resource path="E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\Gli3_enhancers_upstream_gold.mm10.bw" type="bw"/>
+    </Resources>
+    <Panel height="196" name="DataPanel" width="1517">
+        <Track attributeKey="GLI3_log2ChIPoverInput.mm10.bin25.chr13.skipNAs.bw" autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="\\?\E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\GLI3_log2ChIPoverInput.mm10.bin25.chr13.skipNAs.bw" name="GLI3_log2ChIPoverInput.mm10.bin25.chr13.skipNAs.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="0.1" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="GLI3_E115_ChIP_merged.mm10.CPM.bin25.chr13.bw" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\GLI3_E115_ChIP_merged.mm10.CPM.bin25.chr13.bw" name="GLI3_E115_ChIP_merged.mm10.CPM.bin25.chr13.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.5006826" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Gli3_enhancers_upstream_gold.mm10.bw" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\Gli3_enhancers_upstream_gold.mm10.bw" name="Gli3_enhancers_upstream_gold.mm10.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="Gli3_enhancers_intronic_green.mm10.bw" autoScale="true" clazz="org.broad.igv.track.DataSourceTrack" fontSize="10" id="E:\Amir Various research data_Oct 20th 2024\GLI3 review_Aug 2023\3D genome analysis stuff\Limbs\Publication work_june 2024\Re-Submission to Developmental Biology-Stuff\Supp-Fig-Gli3_ChipSeq\IGV_bundle_mm10_chr13\Gli3_enhancers_intronic_green.mm10.bw" name="Gli3_enhancers_intronic_green.mm10.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="473" name="FeaturePanel" width="1517">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Refseq Curated" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;307.0;255,255,255;0,0,178" fontSize="10" groupByStrand="false" id="https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz" name="Refseq Curated" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.29289940828402367"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>

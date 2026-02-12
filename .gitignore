@@ -61,3 +61,8 @@ fig2/outputs/panels/*v2_shortGrouped_annotMe3*
 
 # ignore local citation note (not for repo)
 supplementary/virtual4c_gli3_hindlimb_hic_mm9/how-to-cite.txt
+
+# Allow supplementary GLI3 ChIP-seq exports + supporting table (override global ignores)
+!Supp-Fig GLI3 ChIP-seq material/*.png
+!Supp-Fig GLI3 ChIP-seq material/*.svg
+!Supp-Fig GLI3 ChIP-seq material/*.xlsx
