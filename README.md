@@ -19,3 +19,6 @@ This repository snapshot contains the minimal figure-specific metadata and helpe
 ## What is not included
 Large raw datasets (e.g., `*.bw`, `*.hic`) and final assembled figure binaries are not committed by default.
 They can be retrieved from the listed GEO accessions and verified against the manifest checksums.
+
+## Updates
+- **Update (Feb 12, 2026):** Added a complete supplementary GLI3 ChIP-seq figure bundle (mm10; WT E11.5 limb), including IGV session/snapshots, enhancer-wise GLI3 log2(ChIP/Input) quantification tables, final Panel C plot (PNG/SVG), submission-ready Excel table, and scripts covering SRR → BAM → CPM bigWig → log2 bigWig and downstream plotting.
