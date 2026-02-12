@@ -58,3 +58,6 @@ fig2/outputs/panels/*v2_shortGrouped_annotMe3*
 !supplementary/virtual4c_gli3_hindlimb_hic_mm9/outputs/figures/*.png
 !supplementary/virtual4c_gli3_hindlimb_hic_mm9/outputs/figures/*.pdf
 
+
+# ignore local citation note (not for repo)
+supplementary/virtual4c_gli3_hindlimb_hic_mm9/how-to-cite.txt
