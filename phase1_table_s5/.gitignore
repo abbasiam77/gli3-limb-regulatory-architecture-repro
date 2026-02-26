@@ -1,0 +1,29 @@
+# Large/raw sequencing and alignment files
+*/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Signal / peak binary files (usually too large for git)
+*.bw
+*.bigWig
+*.bedGraph
+*.narrowPeak
+*.broadPeak
+*.bb
+
+# Temp/cache/logs
+tmp/
+*/tmp/
+*.tmp
+*.log
+
+# Notebook / editor / OS clutter
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
