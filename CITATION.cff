@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "GLI3 limb regulatory architecture reproducibility repository"
+type: software
+authors:
+  - family-names: "Abbasi"
+    given-names: "Amir Ali"
+    email: "abbasiam@qau.edu.pk"
+    affiliation: "Professor, National Center for Bioinformatics, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad"
+repository-code: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
+url: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
+license: "MIT"
+version: "1.0.0"
+date-released: 2026-02-27
+keywords:
+  - GLI3
+  - limb development
+  - enhancers
+  - regulatory architecture
+  - reproducibility
+abstract: >
+  Reviewer-oriented reproducibility repository for an architecture-first,
+  quantitative integrative analysis of the GLI3 regulatory landscape in mouse limb
+  development. The repository is organized into figure- and supplement-specific
+  modules and includes processed/derived data tables, scripts, provenance notes,
+  and manuscript-ready figure/table submission bundles.

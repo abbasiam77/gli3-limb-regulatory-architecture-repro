@@ -57,3 +57,14 @@ For reviewer/editor convenience, final manuscript-ready PDFs/XLSX files are also
 - `supp_figs_submission_pdf/` — supplementary figure PDFs
 - `supp_tables_submission_xlsx/` — supplementary table Excel files
 - Main figure PDFs are placed in each corresponding main figure module under `outputs/final_pdf/`
+
+## Contact
+**Prof. Amir Ali Abbasi**  
+National Center for Bioinformatics, Faculty of Biological Sciences  
+Quaid-i-Azam University, Islamabad  
+Email: `abbasiam@qau.edu.pk`
+
+## Citation and license
+- Citation metadata for GitHub is provided in `CITATION.cff`
+- Repository software/scripts are licensed under the MIT License (`LICENSE`)
+- See `docs/asset_use_notice.md` for notes regarding manuscript-ready figure/table assets
