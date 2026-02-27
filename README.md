@@ -51,3 +51,9 @@ If you are reviewing a specific figure or supplementary item, start with the cor
 
 ## Status
 Repository structure has been reorganized for reviewer-facing clarity during final manuscript preparation/resubmission.
+
+## Manuscript-ready submission asset bundles
+For reviewer/editor convenience, final manuscript-ready PDFs/XLSX files are also grouped here:
+- `supp_figs_submission_pdf/` — supplementary figure PDFs
+- `supp_tables_submission_xlsx/` — supplementary table Excel files
+- Main figure PDFs are placed in each corresponding main figure module under `outputs/final_pdf/`
