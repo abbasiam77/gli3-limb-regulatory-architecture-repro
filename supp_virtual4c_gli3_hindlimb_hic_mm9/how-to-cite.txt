@@ -1,0 +1,31 @@
+How to cite this in the manuscript (clean + stable)
+
+In your caption/methods, cite:
+
+Repository: abbasiam77/gli3-limb-fig1-repro
+
+Path: supplementary/virtual4c_gli3_hindlimb_hic_mm9/
+
+Commit: abfb771 (this is the exact state you used)
+
+
+
+----------------------------
+
+Here are clean, journal-friendly one-line repository citations you can use. Pick the style that best fits the journal.
+
+✅ Standard (safe for most journals)
+
+Analysis code, processed data, and publication-ready figures for the GLI3 hindlimb Virtual 4C analysis are available at the GitHub repository gli3-limb-fig1-repro (Abbasi), supplementary folder virtual4c_gli3_hindlimb_hic_mm9, commit abfb771.
+
+✅ Slightly more formal (methods/supplement style)
+
+All scripts, processed Virtual 4C vectors, and figure assets underlying this analysis are publicly available in the GitHub repository gli3-limb-fig1-repro (commit abfb771), under supplementary/virtual4c_gli3_hindlimb_hic_mm9.
+
+✅ Data-reproducibility focused (reviewer-friendly)
+
+To ensure reproducibility, the complete Virtual 4C workflow (scripts, enhancer BEDs, processed vectors, and final figures) is archived at gli3-limb-fig1-repro, folder supplementary/virtual4c_gli3_hindlimb_hic_mm9, commit abfb771.
+
+✅ Ultra-compact (for figure legends)
+
+Resources: GitHub gli3-limb-fig1-repro, supplementary/virtual4c_gli3_hindlimb_hic_mm9 (commit abfb771).
