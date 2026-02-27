@@ -1,26 +1,25 @@
-# Fig 2 (mm9) — GLI3 limb manuscript
+# Main Fig. 2 (mm9) reproducibility module
 
-This folder contains scripts and derived outputs used to generate Figure 2.
+## Purpose
+This module contains reproducibility assets for manuscript **Main Fig. 2**, focused on **mm9 hindlimb chromatin tracks, enhancer visualization, and enhancer-level signal quantification** around the *Gli3* regulatory landscape.
 
-## Included
-- `scripts/` : quantification + plotting scripts for Fig2C and supporting table generation.
-- `inputs/` : derived TSV(s) used to plot Fig2C (tracked in git).
-- `outputs/panels/` : panel exports (A/B/C) in PNG/SVG.
-- `tables/` : supporting Excel table for Fig2C.
-- `notes/caption/` : final caption text.
+## Scope (current repository contents)
+This module includes:
+- IGV session files for panel generation (wide and zoom views)
+- scripts used for Fig2C signal processing/replotting
+- panel exports (Fig2A / Fig2B / Fig2C)
+- supporting input/derived tables used for Fig2C quantification and plotting
+- figure caption notes and manifest placeholders retained from project development
 
-## Not included (too large)
-Raw bigWig tracks (*.bw), Hi-C files (*.hic), and other large binaries are excluded via `.gitignore`.
+## Folder guide
+- `inputs/` — source tables and IGV session XMLs used for panel setup/replotting
+- `scripts/` — data processing and plotting scripts for Fig2C and related supporting outputs
+- `outputs/panels/` — exported panel images (PNG/SVG) and final panel markers
+- `tables/` — supporting Excel table(s) for Fig2C quantification
+- `notes/` — caption drafts / project notes (lightly curated)
+- `manifests/` — module-level manifest notes
+- `config/` / `docs/` / `env/` — auxiliary files retained for reproducibility context
 
-## Reproduce Fig2C (example)
-python fig2/scripts/plot_Fig2C_grouped_three_marks_shared_axis_v3_clean.py \
-  --tsv fig2/inputs/Fig2C_enhancer_meanSignal_WT_HL_E115_mm9.fixed.tsv \
-  --out-prefix fig2/outputs/panels/Fig2C_grouped_threeMarks_sharedAxis_v3_CLEAN \
-  --drop-all-zero \
-  --gap-between-groups 0.30
-
-## Final plot used in manuscript
-- Final Fig2C basename: `Fig2C_grouped_threeMarks_sharedAxis_v3_CLEAN`
-- Fig2C plot script: `scripts/plot_Fig2C_grouped_three_marks_shared_axis_v3_clean.py`
-- Input TSV: `inputs/Fig2C_enhancer_meanSignal_WT_HL_E115_mm9.fixed.tsv`
-- Expected outputs: `outputs/panels/Fig2C_grouped_threeMarks_sharedAxis_v3_CLEAN.(png|svg)`
+## Notes
+This module was reorganized during repository-wide reviewer-facing cleanup.
+Genome-build for Fig2 is mm9 (see repository-level coordinate/build policy).

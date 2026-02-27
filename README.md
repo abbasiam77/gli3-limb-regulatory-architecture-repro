@@ -1,24 +1,53 @@
-# Fig 1 reproducibility package (GLI3 limb manuscript)
+# GLI3 limb regulatory architecture reproducibility repository
 
-This repository snapshot contains the minimal figure-specific metadata and helper scripts needed to reproduce **Figure 1** visualization settings.
+This repository contains figure- and supplement-oriented reproducibility assets for a **GLI3 limb manuscript resubmission** (Developmental Biology), organized for reviewer-friendly navigation. The project is framed as an **architecture-first, quantitative integrative**, and **conservatively interpreted** analysis of the GLI3 regulatory landscape in mouse limb development.
 
-## Locked settings
-- Genome build: **mm9**
-- Locus: **chr13:12861604-16470132 (mm9)**
-- Juicebox: **Observed**, **Balanced/KR**, **5 kb**
-- IGV session: `docs/igv_session.xml`
-- Enhancer naming: IGV session expects upstream enhancer bigWig as `Gli3_enhancers_gold-mm9.bw`
+## Repository design (reviewer-facing)
+The repository is organized into self-contained modules corresponding to manuscript main figures and selected supplementary analyses/tables.
 
-## What is included
-- IGV session XML + enhancer BED (`docs/`)
-- Figure settings (`config/fig1_params.yaml`)
-- Source table for methods/caption (`docs/sources.tsv`)
-- Manifest + SHA256 checksums (`manifests/`)
-- Utility scripts (`scripts/`)
+### Main figure modules
+- `01_main_fig1_mm9/` — Main Fig. 1 reproducibility assets (mm9 context)
+- `02_main_fig2_mm9/` — Main Fig. 2 reproducibility assets (mm9 histone/enhancer views and quantification support)
+- `03_main_fig3_mm10/` — Main Fig. 3 reproducibility assets (mm10 HOX13 occupancy and quantification)
 
-## What is not included
-Large raw datasets (e.g., `*.bw`, `*.hic`) and final assembled figure binaries are not committed by default.
-They can be retrieved from the listed GEO accessions and verified against the manifest checksums.
+### Supplementary modules
+- `supp_fig_gli3_chipseq_mm10_e11p5/` — Supplementary GLI3 ChIP-seq figure bundle (mm10, E11.5 limb)
+- `supp_virtual4c_gli3_hindlimb_hic_mm9/` — Supplementary Virtual 4C module (hindlimb Hi-C, mm9, GLI3 promoter viewpoint)
+- `supp_table_s5_phase1_support_layer/` — Supplementary Table S5 (p300/HAND2/PITX1 extension support-layer workflow)
 
-## Updates
-- **Update (Feb 12, 2026):** Added a complete supplementary GLI3 ChIP-seq figure bundle (mm10; WT E11.5 limb), including IGV session/snapshots, enhancer-wise GLI3 log2(ChIP/Input) quantification tables, final Panel C plot (PNG/SVG), submission-ready Excel table, and scripts covering SRR → BAM → CPM bigWig → log2 bigWig and downstream plotting.
+### Repository-wide documentation
+- `docs/repo_map.md` — quick module map and navigation notes
+- `docs/coordinate_build_policy.md` — mm9/mm10 build usage and conversion policy
+- `docs/manuscript_figure_table_mapping.md` — mapping between manuscript items and repository modules/files
+
+## Manuscript framing preserved in this repository
+- **Architecture-first**
+- **Quantitative integrative**
+- **Conservative / non-causal language**
+- **S2** = HOX13 quantification source table
+- **S3** = GLI3 quantification source table
+- **S5** = p300/HAND2/PITX1 extension support-layer table
+- **No S6** integrated master prioritization table at this stage
+
+## Genome build policy (summary)
+This project intentionally uses a mixed-build strategy based on data provenance and analysis needs:
+- Some modules are mm9-based (e.g., Hi-C/histone display contexts)
+- Some modules are mm10-based (e.g., HOX13 occupancy analyses)
+
+Please see `docs/coordinate_build_policy.md` for details and rationale.
+
+## Reproducibility scope
+This repository focuses on:
+- scripts
+- processed/derived tables
+- panel exports
+- metadata/manifests/provenance notes
+- selected frozen BED inputs
+
+Large raw sequencing files and full external datasets are not necessarily mirrored here and should be obtained from the corresponding public sources/accessions documented within module-level files.
+
+## Notes for reviewers/readers
+If you are reviewing a specific figure or supplementary item, start with the corresponding module README. Each module is organized to keep scripts, outputs, and provenance close together.
+
+## Status
+Repository structure has been reorganized for reviewer-facing clarity during final manuscript preparation/resubmission.

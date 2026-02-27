@@ -1,17 +1,26 @@
-# Fig 3 reproducibility package (mm10) — GLI3 limb manuscript
+# Main Fig. 3 (mm10) reproducibility module
 
-## Locked settings
-- Genome build: **mm10**
-- Fig 3 is **mm10-only**
-- Enhancer names are assigned by coordinate match to: `coords/Gli3_named_enhancers.mm10.bed`
+## Purpose
+This module contains reproducibility assets for manuscript **Main Fig. 3**, focused on **mm10 HOXA13/HOXD13 occupancy visualization and enhancer-level quantification** across the *Gli3* locus.
 
-## Included
-- `coords/`: enhancer BEDs + naming BED
-- `derived/`: final Fig3C HOXA13/HOXD13 per-enhancer table + Supplementary Table S (xlsx/tsv/csv)
-- `scripts/`: scripts used for Fig3C generation (table + scatter)
-- `outputs/panels/`: final Fig3C panel (PNG/SVG)
-- `docs/`: caption + sources metadata
-- `manifests/sha256sums.txt`: checksums for committed files
+## Scope (current repository contents)
+This module includes:
+- mm10 enhancer coordinate BED files (all/upstream/intronic/named sets)
+- derived quantification tables used for Fig3B/Fig3C and supporting exports
+- IGV sessions/snapshots for panel generation
+- scripts used to build and replot Fig3C data/scatter outputs
+- final panel exports for Fig3A/Fig3B/Fig3C
+- source/provenance notes and checksums
 
-## Not included
-- Large raw tracks (e.g., `*.bw`) are not committed by default.
+## Folder guide
+- `coords/` — mm10 enhancer coordinate sets used in Fig3 analyses
+- `derived/` — processed/derived tables used for Fig3B/Fig3C and supplementary exports
+- `scripts/` — data preparation and plotting scripts (especially Fig3C)
+- `outputs/panels/` — final figure panel exports
+- `igv/` — IGV sessions, snapshots, and track-range notes
+- `docs/` — source notes / caption-support files
+- `manifests/` — checksums and module-level provenance
+
+## Notes
+This module was reorganized during repository-wide reviewer-facing cleanup.
+Fig3 is intentionally kept mm10-based (see repository-level coordinate/build policy).
