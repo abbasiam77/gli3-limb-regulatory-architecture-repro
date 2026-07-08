@@ -1,12 +1,10 @@
-# Supplementary Figures submission bundle
+# Supplementary figures submission bundle
 
-This folder contains manuscript-ready **PDF** supplementary figures for the GLI3 limb manuscript submission/resubmission package.
+This folder contains the manuscript-ready supplementary figure PDFs for the revised Gli3 limb regulatory landscape manuscript.
 
-Included file type:
-- PDF (submission-ready)
+Files:
+- `Supplementary Fig. S1.pdf` — GLI3 ChIP-seq reanalysis and enhancer-wise GLI3 occupancy.
+- `Supplementary Fig. S2.pdf` — promoter-centered Virtual 4C analysis from the Gli3 promoter viewpoint.
+- `Supplementary Fig. S3.pdf` — comparison of curated Gli3 limb enhancers with validated non-limb Gli3-region enhancers.
 
-For reproducibility workflows underlying specific supplementary figures, also see:
-- `supp_virtual4c_gli3_hindlimb_hic_mm9/`
-- `supp_fig_gli3_chipseq_mm10_e11p5/`
-
-See `docs/submission_assets_manifest.tsv` for the imported file manifest.
+Supplementary Figure S3 was added in the revised version to summarize the limb versus non-limb control analysis corresponding to Supplementary Table S6a,b.
