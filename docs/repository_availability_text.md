@@ -1,24 +1,55 @@
-# Repository availability wording (manuscript / cover letter / rebuttal)
+# Repository availability wording
 
-## 1) Manuscript (Data/Code Availability style — concise)
-A reviewer-oriented reproducibility repository containing figure- and supplement-specific modules, processed/derived data tables, scripts, provenance notes, and manuscript-ready figure/table submission bundles is available at: https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro
+This document provides reusable wording for manuscript, cover-letter and
+reproducibility statements associated with the current repository.
 
-## 2) Manuscript (slightly expanded version)
-To facilitate review and reproducibility, we provide a reviewer-oriented GitHub repository organized into figure- and supplement-specific modules. The repository includes scripts, processed/derived tables, provenance/manifests, and manuscript-ready figure/table submission bundles relevant to the present study: https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro
+Repository:
 
-## 3) Cover letter (editor-facing)
-For reviewer convenience, we have organized and updated a dedicated reproducibility repository for this resubmission. The repository is structured into figure- and supplement-specific modules and includes scripts, processed tables, provenance notes, and manuscript-ready figure/table bundles:
 https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro
 
-## 4) Response to reviewers (if asked about reproducibility/availability)
-In response to concerns regarding transparency and reproducibility, we reorganized our repository into a reviewer-friendly modular structure aligned with the manuscript figures and supplementary analyses. The updated repository includes module-specific scripts, processed/derived tables, provenance/manifests, and final manuscript-ready figure/table bundles:
-https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro
+## Manuscript — concise
 
-## 5) Methods section (code availability wording)
-Custom scripts and organized reproducibility assets used for figure generation, supplementary analyses, and supporting processed tables are available in a public GitHub repository: https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro
+A public reproducibility repository containing figure- and
+supplement-specific modules, processed and derived data tables, scripts,
+provenance documentation and manuscript-ready assets is available through the
+GitHub repository listed above.
 
-## 6) Repository contact (optional wording)
-Repository curation and corresponding reproducibility assets were organized by **Prof. Amir Ali Abbasi** (National Center for Bioinformatics, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad). For correspondence regarding repository organization or reproducibility materials, contact: **abbasiam@qau.edu.pk**
+## Manuscript — expanded
 
-## Optional enhancement (commit-pinned version)
-For a submission or revision lock, you may append a commit hash to the repository URL in the manuscript/rebuttal (e.g., cite a specific commit/tag used at submission time).
+To facilitate reproducibility and independent inspection of the analyses, we
+provide a public GitHub repository organized into figure- and
+supplement-specific modules. It contains scripts, processed and derived tables,
+provenance and QC documentation, and exact manuscript-ready figure, table and
+supplementary-file assets relevant to the study.
+
+## Cover letter
+
+A dedicated public reproducibility repository accompanies the manuscript. It
+is organized into figure- and supplement-specific modules and includes scripts,
+processed and derived data, provenance information, QC records and exact
+manuscript-ready assets.
+
+## Methods / code availability
+
+Custom scripts and organized reproducibility assets used for figure
+generation, supplementary analyses and supporting processed tables are
+available in the public GitHub repository listed above.
+
+## Release-specific citation
+
+For a locked manuscript submission or published version, cite:
+
+1. the exact GitHub release tag;
+2. the corresponding Git commit; and
+3. the version-specific Zenodo DOI created for that release.
+
+The release tag, commit and Zenodo DOI should be inserted only after the final
+GitHub release has been created and the Zenodo archive has been verified.
+
+## Repository contact
+
+Repository curation and associated reproducibility assets were organized by
+Amir Ali Abbasi, National Center for Bioinformatics, Faculty of Biological
+Sciences, Quaid-i-Azam University, Islamabad, Pakistan.
+
+Contact: abbasiam@qau.edu.pk

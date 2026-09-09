@@ -1,17 +1,22 @@
-# Supplementary tables submission bundle
+# Additional File 2
 
-This folder contains manuscript-ready supplementary table files for the revised Gli3 limb regulatory landscape manuscript.
+This folder contains the exact current supplementary-table workbook used for
+the September 2026 manuscript revision.
 
-The current revised submission uses:
+- `Additional File 2.xlsx`
 
-- `Supplementary Tables.xlsx`
+The frozen workbook contains ten sheets:
 
-This combined workbook contains Supplementary Tables S1-S6, including:
-- S1: Fig. 2C histone-mark enhancer-wise quantification.
-- S2: Fig. 3C HOX13 enhancer-wise quantification.
-- S3: GLI3 enhancer-wise occupancy.
-- S4a,b: Virtual 4C signal vector and mm9 enhancer coordinates.
-- S5: p300/HAND2/PITX1 occupancy-support matrix.
-- S6a,b: limb versus validated non-limb Gli3-region enhancer comparison and class-level summary.
+- S1
+- S2
+- S3
+- S4a
+- S4b
+- S5
+- S6a
+- S6b
+- S7
+- S8
 
-Older separate S1-S5 workbooks are retained in this folder for continuity with the earlier repository structure, but the combined `Supplementary Tables.xlsx` file is the updated manuscript-ready supplementary table workbook.
+This workbook is the audited master supplementary-table file for the current
+manuscript revision.

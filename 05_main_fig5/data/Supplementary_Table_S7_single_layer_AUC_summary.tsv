@@ -1,0 +1,12 @@
+signal	signal_label	n_limb	n_non_limb	limb_mean	non_limb_mean	limb_median	non_limb_median	AUC_limb_high	MWU_p_approx_two_sided	interpretation
+HOXA13_mean0	HOXA13	13	41	6.041615384615384	12.18941463414634	3.88	6.022	0.3621013133208255	0.13968654196756133	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+HOXD13_mean0	HOXD13	13	41	3.899307692307692	5.039829268292683	3.595	3.931	0.4446529080675422	0.5573801764644802	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+HOX13_sum_mean0	HOX13 combined	13	41	9.94076923076923	17.229317073170733	8.754	10.146	0.3883677298311445	0.23259266071298468	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+GLI3_mean0	GLI3	13	41	0.025923076923076924	0.015439024390243902	-0.007	-0.004	0.48686679174484054	0.8952963960929804	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+H3K4me1_mean0	H3K4me1	13	41	0.3595384615384615	0.5157317073170732	0.281	0.396	0.36397748592870544	0.1451917533005565	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+H3K27ac_mean0	H3K27ac	13	41	0.17276923076923076	0.28656097560975613	0.123	0.256	0.2851782363977486	0.021071313679612954	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+H3K4me3_mean0	H3K4me3	13	41	0.04461538461538461	0.2835853658536585	0.034	0.069	0.2598499061913696	0.009861342212498297	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+HAND2_WT_mean0	HAND2	13	41	1.8401538461538463	1.6189268292682928	1.313	1.457	0.5065666041275797	0.951582117762527	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+p300_mean0	p300	13	41	0.27384615384615385	0.39880487804878045	0.173	0.363	0.36585365853658536	0.1504098781121295	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+PITX1_mean0_average_HL1_HL2	PITX1	13	41	1.6532307692307693	2.6583658536585366	1.357	1.887	0.3151969981238274	0.047393427385159	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.
+active_enhancer_score_H3K4me1_plus_H3K27ac	Active enhancer score	13	41	0.5323076923076923	0.8022682926829269	0.377	0.652	0.33771106941838647	0.0818451530121798	Higher signal does not positively classify validated Gli3 limb enhancers as a standalone layer.

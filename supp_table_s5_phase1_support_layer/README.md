@@ -1,34 +1,60 @@
-# Supplementary Table S5 (Phase 1 support-layer extension) reproducibility module
+# Supplementary Table S5 supporting signal-layer reproducibility module
 
 ## Purpose
-This module contains the reproducibility assets for **Supplementary Table S5**, which provides a **support-layer / prioritization extension** using p300, HAND2, and PITX1 datasets across the GLI3 enhancer set.
 
-## Framing (important)
-This module supports the manuscript's **architecture-first, quantitative, and conservative** interpretation.
-It is used as an **extension support layer** and is **not** intended to replace the main source quantification tables.
+This module contains reproducibility assets underlying Supplementary Table S5,
+which summarizes p300, HAND2 and PITX1 signal across the curated Gli3
+limb-enhancer set.
 
-- **S2** = HOX13 quantification source table
-- **S3** = GLI3 quantification source table
-- **S5** = p300/HAND2/PITX1 extension support-layer table
-- No integrated “master prioritization” table is introduced here (no S6 at this stage)
+These datasets are used as additional genomic context alongside the other
+chromatin and transcription-factor layers analyzed in the study. They are not
+treated as direct evidence of enhancer function, tissue specificity, regulatory
+mechanism or causation.
+
+Functional validation remains the anchor for enhancer identity.
+
+## Relationship to the current supplementary tables
+
+- **S1** — histone-mark quantification underlying Main Figure 2C
+- **S2** — HOXA13/HOXD13 quantification underlying Main Figure 3C
+- **S3** — GLI3 quantification underlying Supplementary Figure S1C
+- **S4a/S4b** — promoter-centered Virtual 4C data and coordinates
+- **S5** — p300/HAND2/PITX1 supporting signal layers
+- **S6a/S6b** — validated limb versus non-limb enhancer comparison
+- **S7** — single-layer AUC summary underlying Main Figure 5E
+- **S8** — integrated rank-percentile matrix underlying Main Figure 4
+
+The exact formatted current Supplementary Table S5 is included in the frozen
+master workbook:
+
+`../supp_tables_submission_xlsx/Additional File 2.xlsx`
 
 ## Contents overview
-This module includes:
-- final S5 exports (`.xlsx`, final `.tsv`)
-- factor-specific subfolders (`p300/`, `HAND2/`, `PITX1/`) containing BEDs, metadata, peaks/quantification outputs
-- shared enhancer BEDs and shared metadata
-- QC summaries
-- scripts used for download, track conversion, and S5 table construction
-- intermediate/supporting tables retained for provenance
+
+This module preserves:
+
+- final and intermediate S5 exports;
+- factor-specific `p300/`, `HAND2/` and `PITX1/` folders;
+- enhancer BED files and metadata;
+- track and value provenance;
+- QC summaries;
+- scripts used for data acquisition, conversion, quantification and table
+  construction;
+- supporting intermediate files retained for reproducibility.
 
 ## Folder guide
-- `scripts/` — build/download/conversion scripts for the Phase 1 workflow
-- `p300/`, `HAND2/`, `PITX1/` — factor-specific inputs/metadata/quantification assets
-- `shared_beds/` — frozen enhancer BEDs (mm10 and lifted mm9 variants used in workflow)
-- `shared_metadata/` — enhancer manifests, checksums, UCSC chain/sizes, workflow manifests
-- `shared_qc/` — QC summaries (e.g., track consistency)
-- `tables/` — intermediate and draft/supporting tables retained for provenance
-- top-level `Supplementary_Table_S5.xlsx` and final TSV — final deliverables
 
-## Notes
-This module has been reorganized for reviewer-facing clarity while preserving existing factor-level organization and file paths used during analysis.
+- `scripts/` — workflow scripts
+- `p300/`, `HAND2/`, `PITX1/` — factor-specific metadata and quantification
+  assets
+- `shared_beds/` — enhancer BED files used in the workflow
+- `shared_metadata/` — manifests and provenance metadata
+- `shared_qc/` — QC summaries
+- `tables/` — intermediate/supporting tables retained for provenance
+
+## Interpretation
+
+Signal enrichment in these bulk datasets is interpreted conservatively.
+Presence or magnitude of a signal does not by itself establish limb enhancer
+activity, direct transcription-factor binding at every element, enhancer-
+promoter interaction, or regulatory function.

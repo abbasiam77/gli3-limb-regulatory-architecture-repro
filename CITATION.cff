@@ -1,26 +1,33 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite it using the metadata below."
-title: "GLI3 limb regulatory architecture reproducibility repository"
+message: "If you use this repository, please cite the associated manuscript and archived repository release."
+title: "Gli3 limb regulatory genomics reproducibility repository"
 type: software
 authors:
   - family-names: "Abbasi"
     given-names: "Amir Ali"
     email: "abbasiam@qau.edu.pk"
-    affiliation: "Professor, National Center for Bioinformatics, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad"
+    affiliation: "National Center for Bioinformatics, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad, Pakistan"
 repository-code: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
 url: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
-license: "MIT"
-version: "1.0.0"
-date-released: 2026-02-27
+license: MIT
+version: "2.0.0"
+date-released: 2026-09-09
 keywords:
   - GLI3
   - limb development
   - enhancers
-  - regulatory architecture
+  - regulatory genomics
+  - chromatin
+  - transcription factors
+  - Hi-C
   - reproducibility
 abstract: >
-  Reviewer-oriented reproducibility repository for an architecture-first,
-  quantitative integrative analysis of the GLI3 regulatory landscape in mouse limb
-  development. The repository is organized into figure- and supplement-specific
-  modules and includes processed/derived data tables, scripts, provenance notes,
-  and manuscript-ready figure/table submission bundles.
+  Reproducibility repository for a locus-resolved integrative analysis of
+  validated regulatory elements in the mouse Gli3 region. The repository
+  contains figure- and table-level processed outputs, provenance information,
+  build-aware genomic resources, scripts, and manuscript-ready assets.
+  Functional validation is treated as the anchor for enhancer identity,
+  whereas chromatin, transcription-factor, and chromosome-contact datasets are
+  interpreted as correlative genomic context. The September 2026 revision
+  includes an integrated 54-enhancer signal analysis and a locus-matched
+  comparison of validated limb and non-limb enhancers.
