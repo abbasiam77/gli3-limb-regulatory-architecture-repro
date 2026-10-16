@@ -20,14 +20,15 @@ Functional validation remains the anchor for enhancer identity.
 - **S3** — GLI3 quantification underlying Supplementary Figure S1C
 - **S4a/S4b** — promoter-centered Virtual 4C data and coordinates
 - **S5** — p300/HAND2/PITX1 supporting signal layers
-- **S6a/S6b** — validated limb versus non-limb enhancer comparison
+- **S6a/S6b** — comparison of 13 functionally supported Gli3 limb enhancers with 41 annotation-based VISTA comparison elements
 - **S7** — single-layer AUC summary underlying Main Figure 5E
 - **S8** — integrated rank-percentile matrix underlying Main Figure 4
 
-The exact formatted current Supplementary Table S5 is included in the frozen
-master workbook:
+The September 2026 formatted Supplementary Table S5 is preserved in the historical workbook:
 
 `../supp_tables_submission_xlsx/Additional File 2.xlsx`
+
+The revised October 2026 formatted Table S5 is provided in Online Resource 2 (`ESM_2.xlsx`) within the forthcoming Mammalian Genome release-specific submission snapshot.
 
 ## Contents overview
 

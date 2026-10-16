@@ -1,7 +1,7 @@
-# Additional File 2
+# September 2026 supplementary-table archive
 
-This folder contains the exact current supplementary-table workbook used for
-the September 2026 manuscript revision.
+This folder preserves the supplementary-table workbook associated with
+the September 2026 manuscript release.
 
 - `Additional File 2.xlsx`
 
@@ -18,5 +18,9 @@ The frozen workbook contains ten sheets:
 - S7
 - S8
 
-This workbook is the audited master supplementary-table file for the current
-manuscript revision.
+This workbook is the archived supplementary-table file associated with the
+September 2026 manuscript revision.
+
+## October 2026 Mammalian Genome submission
+
+The revised supplementary tables are provided in Online Resource 2 (`ESM_2.xlsx`), containing ten data worksheets (S1–S8, including S4a/S4b and S6a/S6b) plus a README worksheet. The final October file will be archived in a separate release-specific submission snapshot.

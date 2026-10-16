@@ -1,7 +1,7 @@
-# Additional File 1
+# September 2026 supplementary-figure archive
 
-This folder contains the exact current supplementary-figure PDF used for the
-September 2026 manuscript revision.
+This folder preserves the supplementary-figure PDF associated with the
+September 2026 manuscript release.
 
 - `Additional File 1.pdf`
 
@@ -16,3 +16,7 @@ hindlimb Hi-C (mm9).
 The former Supplementary Figure S3 is not part of the current manuscript.
 Historical S3 repository materials are retained under `archive/` solely for
 provenance.
+
+## October 2026 Mammalian Genome submission
+
+The October 2026 manuscript provides Supplementary Figures S1 and S2 together in Online Resource 1 (`ESM_1.pdf`). The final October file will be archived in a separate release-specific submission snapshot.

@@ -1,17 +1,16 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript and archived repository release."
+message: "If you use this repository, please cite the associated manuscript and the corresponding archived repository release."
 title: "Gli3 limb regulatory genomics reproducibility repository"
 type: software
 authors:
   - family-names: "Abbasi"
     given-names: "Amir Ali"
     email: "abbasiam@qau.edu.pk"
-    affiliation: "National Center for Bioinformatics, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad, Pakistan"
+    affiliation: "National Center for Bioinformatics, Program of Comparative and Evolutionary Genomics, Faculty of Biological Sciences, Quaid-i-Azam University, Islamabad 45320, Pakistan"
 repository-code: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
 url: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
 license: MIT
-version: "2.0.0"
-date-released: 2026-09-09
+version: "2.1.0"
 keywords:
   - GLI3
   - limb development
@@ -22,12 +21,16 @@ keywords:
   - Hi-C
   - reproducibility
 abstract: >
-  Reproducibility repository for a locus-resolved integrative analysis of
-  validated regulatory elements in the mouse Gli3 region. The repository
-  contains figure- and table-level processed outputs, provenance information,
-  build-aware genomic resources, scripts, and manuscript-ready assets.
-  Functional validation is treated as the anchor for enhancer identity,
-  whereas chromatin, transcription-factor, and chromosome-contact datasets are
-  interpreted as correlative genomic context. The September 2026 revision
-  includes an integrated 54-enhancer signal analysis and a locus-matched
-  comparison of validated limb and non-limb enhancers.
+  Reproducibility repository for a locus-resolved integrative analysis
+  of 13 curated functionally supported Gli3 limb enhancers and 41
+  VISTA Gli3-region comparison elements with reported non-limb activity
+  and no limb annotation in the source records. The comparison elements
+  are not treated as experimentally established universal limb-negative
+  controls. The repository includes figure- and table-level processed
+  outputs, provenance documentation, build-aware genomic resources,
+  scripts, and manuscript-associated assets. Chromatin,
+  transcription-factor occupancy, and chromosome-contact datasets
+  provide contextual and correlative evidence rather than direct
+  evidence of regulatory mechanism. Rank-percentile and empirical AUC
+  analyses describe molecular heterogeneity and overlap between the
+  predefined enhancer sets without claiming predictive performance.

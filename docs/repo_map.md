@@ -1,6 +1,7 @@
 # Repository map
 
-This map describes the September 2026 manuscript-aligned repository structure.
+This map describes the October 2026 Mammalian Genome repository structure,
+while preserving September manuscript materials.
 
 ## Main figure modules
 
@@ -12,8 +13,7 @@ This map describes the September 2026 manuscript-aligned repository structure.
   enhancer-wise signal quantification.
 - `04_main_fig4/` — Main Figure 4: integrated 54-enhancer × 9-layer
   rank-percentile heatmap.
-- `05_main_fig5/` — Main Figure 5: validated limb versus non-limb Gli3-region
-  enhancer comparison and single-layer AUC summary.
+- `05_main_fig5/` — Main Figure 5: locus-matched comparison of 13 functionally supported Gli3 limb enhancers with 41 annotation-based VISTA elements and descriptive AUC summaries.
 
 ## Supplementary analysis modules
 
@@ -26,15 +26,15 @@ This map describes the September 2026 manuscript-aligned repository structure.
 - `supp_table_s6_limb_vs_non_limb_control/` — source and provenance materials
   for the 13-limb versus 41-non-limb enhancer comparison.
 
-## Current manuscript-ready supplementary bundles
+## Historical September supplementary bundles
 
-- `supp_figs_submission_pdf/Additional File 1.pdf` — frozen supplementary
+- `supp_figs_submission_pdf/Additional File 1.pdf` — September supplementary
   figure file containing Supplementary Figures S1 and S2.
-- `supp_tables_submission_xlsx/Additional File 2.xlsx` — frozen
+- `supp_tables_submission_xlsx/Additional File 2.xlsx` — September
   supplementary-table workbook containing S1, S2, S3, S4a, S4b, S5, S6a,
   S6b, S7 and S8.
 
-## Exact manuscript snapshot
+## September manuscript snapshot
 
 - `submission_assets/main_figures/` — final Main Figures 1-5.
 - `submission_assets/main_tables/` — final Main Tables 1-2.
@@ -53,8 +53,10 @@ This map describes the September 2026 manuscript-aligned repository structure.
 For figure-specific reproducibility, begin with the README in the relevant
 `0X_main_fig*` module.
 
-For the final manuscript package, use `submission_assets/`.
+For the September manuscript package, use `submission_assets/`.
+For the October Mammalian Genome submission, use the forthcoming verified
+release-specific snapshot containing the updated figures, tables and Online Resources.
 
-For supplementary tables, use the frozen
-`supp_tables_submission_xlsx/Additional File 2.xlsx` together with the relevant
-analysis module when provenance or underlying workflow details are required.
+For October supplementary tables, use Online Resource 2 (`ESM_2.xlsx`)
+from the verified October snapshot. The September workbook and corresponding
+analysis modules remain available for provenance.
