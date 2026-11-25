@@ -86,7 +86,7 @@ by Main Figure 5 and Tables S6a/S6b/S7.
 
 Analyses are build-aware. Hi-C, architectural-protein, RNA-seq, histone-mark,
 and Virtual 4C analyses use mm9 where appropriate to the source datasets.
-HOXA13/HOXD13 and GLI3 ChIP-seq analyses use mm10. Coordinate conversions
+HOXA13/HOXD13 CUT&RUN and GLI3 ChIP-seq analyses use mm10. Coordinate conversions
 and dataset-specific contexts are documented in the relevant modules.
 
 ## Reproducibility scope
