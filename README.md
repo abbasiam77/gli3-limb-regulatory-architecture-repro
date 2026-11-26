@@ -99,5 +99,6 @@ and figure-related resources supporting the study.
 ## Repository citation
 
 Please cite the associated manuscript and the relevant version-specific
-archived repository release. The October 2026 release identifiers will be
-added only after the final release and Zenodo archive have been verified.
+archived repository release. The November 2026 v2.2 release is preserved.
+The v2.3 Figure 4 reproducibility update will receive its version-specific
+archive identifier after the new Zenodo record has been verified.

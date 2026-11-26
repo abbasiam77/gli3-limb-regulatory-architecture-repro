@@ -10,7 +10,7 @@ authors:
 repository-code: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
 url: "https://github.com/abbasiam77/gli3-limb-regulatory-architecture-repro"
 license: MIT
-version: "2.2.0"
+version: "2.3.0"
 keywords:
   - GLI3
   - limb development
